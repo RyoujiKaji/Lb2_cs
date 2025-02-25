@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|c:\\nadezhda\\study\\labs\\cs\\lb2\\lb2\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\lb2\\formcontainerlb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\formcontainerlb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|c:\\nadezhda\\study\\labs\\cs\\lb2\\lb2\\formcontainerlb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\formcontainerlb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|c:\\nadezhda\\study\\labs\\cs\\lb2\\lb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|c:\\nadezhda\\study\\labs\\cs\\lb2\\lb2\\win32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\win32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|c:\\nadezhda\\study\\labs\\cs\\lb2\\lb2\\personargumentexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\personargumentexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|c:\\nadezhda\\study\\labs\\cs\\lb2\\lb2\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|c:\\nadezhda\\study\\labs\\cs\\lb2\\lb2\\myoverflowexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\myoverflowexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|c:\\nadezhda\\study\\labs\\cs\\lb2\\lb2\\formcontainerlb2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B62ED5B-30E8-4D0E-BE0D-35B5F9187480}|Lb2\\Lb2.csproj|solutionrelative:lb2\\formcontainerlb2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "People.cs",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\People.cs",
+              "RelativeDocumentMoniker": "Lb2\\People.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\People.cs",
+              "RelativeToolTip": "Lb2\\People.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:08:23.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Win32.cs",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\Win32.cs",
+              "RelativeDocumentMoniker": "Lb2\\Win32.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\Win32.cs",
+              "RelativeToolTip": "Lb2\\Win32.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:04:46.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonArgumentExeption.cs",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\PersonArgumentExeption.cs",
+              "RelativeDocumentMoniker": "Lb2\\PersonArgumentExeption.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\PersonArgumentExeption.cs",
+              "RelativeToolTip": "Lb2\\PersonArgumentExeption.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:04:35.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\Person.cs",
+              "RelativeDocumentMoniker": "Lb2\\Person.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\Person.cs",
+              "RelativeToolTip": "Lb2\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:03:53.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormContainerLb2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\FormContainerLb2.cs",
+              "RelativeDocumentMoniker": "Lb2\\FormContainerLb2.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\FormContainerLb2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Lb2\\FormContainerLb2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:00:12.182Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormContainerLb2.cs",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\FormContainerLb2.cs",
+              "RelativeDocumentMoniker": "Lb2\\FormContainerLb2.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\FormContainerLb2.cs",
+              "RelativeToolTip": "Lb2\\FormContainerLb2.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T11:59:55.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\Program.cs",
+              "RelativeDocumentMoniker": "Lb2\\Program.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\Program.cs",
+              "RelativeToolTip": "Lb2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:04:56.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyOverflowException.cs",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\MyOverflowException.cs",
+              "RelativeDocumentMoniker": "Lb2\\MyOverflowException.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\MyOverflowException.cs",
+              "RelativeToolTip": "Lb2\\MyOverflowException.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA8wCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:04:18.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormContainerLb2.Designer.cs",
+              "DocumentMoniker": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\FormContainerLb2.Designer.cs",
+              "RelativeDocumentMoniker": "Lb2\\FormContainerLb2.Designer.cs",
+              "ToolTip": "C:\\Nadezhda\\Study\\Labs\\CS\\Lb2\\Lb2\\FormContainerLb2.Designer.cs",
+              "RelativeToolTip": "Lb2\\FormContainerLb2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:00:08.017Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
