@@ -12,6 +12,7 @@ namespace Lb2
         private const double MIN_HEIGHT = 45.0d;
         private const double MAX_HEIGHT = 250.0d;
         private const int MAX_AGE = 125;
+
         /// <summary>
         /// Поле "Имя человека"
         /// </summary>
@@ -73,7 +74,7 @@ namespace Lb2
         /// <summary>
         /// Общее количество людей
         /// </summary>
-        public static byte Persons_count { get; private set; }
+        public static int Persons_count { get; private set; }
 
         /// <summary>
         /// Конструктор по умолчанию

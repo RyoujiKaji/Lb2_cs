@@ -470,6 +470,7 @@
             startTestingButton.TabIndex = 1;
             startTestingButton.Text = "Начать";
             startTestingButton.UseVisualStyleBackColor = true;
+            startTestingButton.Click += startTestingButton_Click;
             // 
             // testingTable
             // 
