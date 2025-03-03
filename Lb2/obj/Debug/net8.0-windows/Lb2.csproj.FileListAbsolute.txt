@@ -14,3 +14,4 @@ C:\Nadezhda\Study\Labs\CS\Lb2\Lb2\obj\Debug\net8.0-windows\refint\Lb2.dll
 C:\Nadezhda\Study\Labs\CS\Lb2\Lb2\obj\Debug\net8.0-windows\Lb2.pdb
 C:\Nadezhda\Study\Labs\CS\Lb2\Lb2\obj\Debug\net8.0-windows\Lb2.genruntimeconfig.cache
 C:\Nadezhda\Study\Labs\CS\Lb2\Lb2\obj\Debug\net8.0-windows\ref\Lb2.dll
+C:\Nadezhda\Study\Labs\CS\Lb2\Lb2\obj\Debug\net8.0-windows\Lb2.sourcelink.json

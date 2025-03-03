@@ -1,3 +1,6 @@
+using System.Data;
+using System.Windows.Forms;
+
 namespace Lb2
 {
     public partial class FormContainerLb2 : Form
@@ -9,7 +12,8 @@ namespace Lb2
 
         private void showAllButton_Click(object sender, EventArgs e)
         {
-
+            // Привязка DataTable к DataGridView
+            //dataGridView.DataSource = dataTable;
         }
 
         private void Form1_Load(object sender, EventArgs e)
