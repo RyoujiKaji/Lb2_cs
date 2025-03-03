@@ -56,16 +56,7 @@
             data = new Label();
             deleteButton = new Button();
             groupBox2 = new GroupBox();
-            showAllButton = new Button();
             showTable = new DataGridView();
-            rowNumber = new DataGridViewTextBoxColumn();
-            rowName = new DataGridViewTextBoxColumn();
-            rowSurname = new DataGridViewTextBoxColumn();
-            rowGender = new DataGridViewTextBoxColumn();
-            rowYear = new DataGridViewTextBoxColumn();
-            rowCity = new DataGridViewTextBoxColumn();
-            rowCountry = new DataGridViewTextBoxColumn();
-            rowHeight = new DataGridViewTextBoxColumn();
             groupBox3 = new GroupBox();
             startTestingButton = new Button();
             testingTable = new ListView();
@@ -273,7 +264,7 @@
             panel2.Controls.Add(label1);
             panel2.Location = new Point(12, 7);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1349, 91);
+            panel2.Size = new Size(1059, 91);
             panel2.TabIndex = 61;
             // 
             // label1
@@ -281,7 +272,7 @@
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label1.Location = new Point(562, 18);
+            label1.Location = new Point(417, 18);
             label1.Name = "label1";
             label1.Size = new Size(226, 60);
             label1.TabIndex = 62;
@@ -300,11 +291,9 @@
             // number
             // 
             number.Location = new Point(70, 55);
-            number.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             number.Name = "number";
             number.Size = new Size(150, 27);
             number.TabIndex = 63;
-            number.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // label3
             // 
@@ -350,26 +339,14 @@
             // groupBox2
             // 
             groupBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            groupBox2.Controls.Add(showAllButton);
             groupBox2.Controls.Add(showTable);
             groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox2.Location = new Point(324, 118);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1037, 451);
+            groupBox2.Size = new Size(747, 451);
             groupBox2.TabIndex = 66;
             groupBox2.TabStop = false;
             groupBox2.Text = "Вывод всех элементов коллекции";
-            // 
-            // showAllButton
-            // 
-            showAllButton.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            showAllButton.Location = new Point(17, 26);
-            showAllButton.Name = "showAllButton";
-            showAllButton.Size = new Size(1003, 29);
-            showAllButton.TabIndex = 1;
-            showAllButton.Text = "Вывести все элементы";
-            showAllButton.UseVisualStyleBackColor = true;
-            showAllButton.Click += showAllButton_Click;
             // 
             // showTable
             // 
@@ -377,76 +354,11 @@
             showTable.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             showTable.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             showTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            showTable.Columns.AddRange(new DataGridViewColumn[] { rowNumber, rowName, rowSurname, rowGender, rowYear, rowCity, rowCountry, rowHeight });
-            showTable.Location = new Point(17, 61);
+            showTable.Location = new Point(17, 26);
             showTable.Name = "showTable";
             showTable.RowHeadersWidth = 51;
-            showTable.Size = new Size(1003, 377);
+            showTable.Size = new Size(713, 412);
             showTable.TabIndex = 0;
-            // 
-            // rowNumber
-            // 
-            rowNumber.HeaderText = "№";
-            rowNumber.MinimumWidth = 6;
-            rowNumber.Name = "rowNumber";
-            rowNumber.ReadOnly = true;
-            rowNumber.Width = 56;
-            // 
-            // rowName
-            // 
-            rowName.HeaderText = "Имя";
-            rowName.MinimumWidth = 6;
-            rowName.Name = "rowName";
-            rowName.ReadOnly = true;
-            rowName.Width = 71;
-            // 
-            // rowSurname
-            // 
-            rowSurname.HeaderText = "Фамилия";
-            rowSurname.MinimumWidth = 6;
-            rowSurname.Name = "rowSurname";
-            rowSurname.ReadOnly = true;
-            rowSurname.Width = 107;
-            // 
-            // rowGender
-            // 
-            rowGender.HeaderText = "Пол";
-            rowGender.MinimumWidth = 6;
-            rowGender.Name = "rowGender";
-            rowGender.ReadOnly = true;
-            rowGender.Width = 67;
-            // 
-            // rowYear
-            // 
-            rowYear.HeaderText = "Год рожд.";
-            rowYear.MinimumWidth = 6;
-            rowYear.Name = "rowYear";
-            rowYear.ReadOnly = true;
-            rowYear.Width = 111;
-            // 
-            // rowCity
-            // 
-            rowCity.HeaderText = "Город";
-            rowCity.MinimumWidth = 6;
-            rowCity.Name = "rowCity";
-            rowCity.ReadOnly = true;
-            rowCity.Width = 81;
-            // 
-            // rowCountry
-            // 
-            rowCountry.HeaderText = "Страна";
-            rowCountry.MinimumWidth = 6;
-            rowCountry.Name = "rowCountry";
-            rowCountry.ReadOnly = true;
-            rowCountry.Width = 88;
-            // 
-            // rowHeight
-            // 
-            rowHeight.HeaderText = "Рост";
-            rowHeight.MinimumWidth = 6;
-            rowHeight.Name = "rowHeight";
-            rowHeight.ReadOnly = true;
-            rowHeight.Width = 70;
             // 
             // groupBox3
             // 
@@ -456,7 +368,7 @@
             groupBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox3.Location = new Point(325, 575);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1036, 165);
+            groupBox3.Size = new Size(746, 165);
             groupBox3.TabIndex = 67;
             groupBox3.TabStop = false;
             groupBox3.Text = "Тестирование производительности";
@@ -470,6 +382,7 @@
             startTestingButton.TabIndex = 1;
             startTestingButton.Text = "Начать";
             startTestingButton.UseVisualStyleBackColor = true;
+            startTestingButton.Click += startTestingButton_Click;
             // 
             // testingTable
             // 
@@ -477,7 +390,7 @@
             testingTable.Columns.AddRange(new ColumnHeader[] { addition, sequentialChoice, randomChoice });
             testingTable.Location = new Point(117, 23);
             testingTable.Name = "testingTable";
-            testingTable.Size = new Size(902, 134);
+            testingTable.Size = new Size(612, 134);
             testingTable.TabIndex = 0;
             testingTable.UseCompatibleStateImageBehavior = false;
             testingTable.View = View.Details;
@@ -498,7 +411,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1373, 752);
+            ClientSize = new Size(1083, 752);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(panel3);
@@ -555,15 +468,6 @@
         private Button deleteButton;
         private GroupBox groupBox2;
         private DataGridView showTable;
-        private DataGridViewTextBoxColumn rowNumber;
-        private DataGridViewTextBoxColumn rowName;
-        private DataGridViewTextBoxColumn rowSurname;
-        private DataGridViewTextBoxColumn rowGender;
-        private DataGridViewTextBoxColumn rowYear;
-        private DataGridViewTextBoxColumn rowCity;
-        private DataGridViewTextBoxColumn rowCountry;
-        private DataGridViewTextBoxColumn rowHeight;
-        private Button showAllButton;
         private GroupBox groupBox3;
         private ListView testingTable;
         private Button startTestingButton;

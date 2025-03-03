@@ -14,31 +14,38 @@ namespace Lb2
     public class People
     {
         /// <summary>
-        /// Типизированный стек людей
+        /// стек
         /// </summary>
         private Stack<Person> peopleStack;
 
         /// <summary>
-        /// Конструктор по умолчанию
+        /// делегат (добавление элемента)
         /// </summary>
-        public People()
-        {
-            peopleStack = new Stack<Person>();
-        }
-
-        delegate void ItemAdded(Person person);
-        delegate void ItemPopped();
+        public delegate void PersonAdd();
 
         /// <summary>
-        /// Добавляет людей в начало коллекции и вызывает событие
+        /// делегат (удаление элемента)
         /// </summary>
-        /// <param name="person">Человек, которого нужно добавить в коллекцию</param>
-        public void Add (Person person) => peopleStack.Push(person);
+        public delegate void PersonRemove();
 
         /// <summary>
-        /// Удаляет человека из начала коллекции и вызывает событие
+        /// событие (добавление элемента)
         /// </summary>
-        public void Pop() => peopleStack.Pop();
+        public event PersonAdd? NotifyAdd;
+
+        /// <summary>
+        /// событие (удаление элемента)
+        /// </summary>
+        public event PersonRemove? NotifyRemove;
+
+        ///// <summary>
+        ///// возвращает стек
+        ///// </summary>
+        ///// <returns></returns>
+        //public Stack<Person> getAll()
+        //{
+        //    return peopleStack;
+        //}
 
         /// <summary>
         /// Создает объект, содержащий данные всех людей для вывода в таблицу
@@ -47,6 +54,16 @@ namespace Lb2
         public DataTable GenerateData()
         {
             DataTable dataTable = new DataTable();
+
+            // Добавление колонок
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Имя", typeof(string));
+            dataTable.Columns.Add("Фамилия", typeof(string));
+            dataTable.Columns.Add("Пол", typeof(string));
+            dataTable.Columns.Add("Год рожд.", typeof(int));
+            dataTable.Columns.Add("Город", typeof(string));
+            dataTable.Columns.Add("Страна", typeof(string));
+            dataTable.Columns.Add("Рост", typeof(double));
 
             int counter = 0;
             // Добавление строк
@@ -57,6 +74,49 @@ namespace Lb2
             }
 
             return dataTable;
+        }
+
+        /// <summary>
+        /// добавляет нового человека в стек
+        /// </summary>
+        /// <param name="person">новый человек</param>
+        public void Add(Person person)
+        {
+            peopleStack.Push(person);
+            NotifyAdd?.Invoke();
+        }
+
+        /// <summary>
+        /// конструктор без параметров
+        /// </summary>
+        public People()
+        {
+            peopleStack = new Stack<Person>();
+        }
+
+        /// <summary>
+        /// удаляет человека из стека по номеру
+        /// </summary>
+        /// <param name="id">Номер человека</param>
+        public void Remove(int id)
+        {
+            //id--;
+            Stack<Person> helpStack = new Stack<Person> ();
+            int count = 0;
+            while (peopleStack.Count > 0)
+            {
+                Person curr = peopleStack.Pop();
+                if (count != id)
+                {
+                    helpStack.Push(curr);
+                }
+                count++;
+            }
+            while (helpStack.Count > 0)
+            {
+                peopleStack.Push(helpStack.Pop ());
+            }
+            NotifyRemove?.Invoke();
         }
     }
 }
